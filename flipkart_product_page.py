@@ -1,6 +1,8 @@
 import re
+import json
 import requests
 from bs4 import BeautifulSoup
+
 
 def scrap_product_page(product_link):
     product_page_code = requests.get(product_link)
@@ -24,7 +26,14 @@ def scrap_product_page(product_link):
             value = row.contents[1].contents[0].contents[0].contents[0]
             category_specification[index] = value
         specifications[header] = category_specification
-    print(specifications)
+    final_data = {
+        "Product Details" : product_details,
+        "Specifications" : specifications
+    }
+    json_object = json.dumps(final_data, indent=4)
+    with open("data.json", "w") as outfile:
+        outfile.write(json_object)
+
 
 def web(page, webUrl):
     flipkart_link = "https://www.flipkart.com"
@@ -37,6 +46,7 @@ def web(page, webUrl):
             product = s.findAll('a', {'class': '_1fQZEK'})[0]
         except IndexError:
             print("Error Occured, Page not supported")
+            exit(1)
         # scrap = {}
         product_link = flipkart_link + product.attrs['href']
         # title = product.find('div', {'class': '_4rR01T'}).contents[0]
@@ -44,6 +54,7 @@ def web(page, webUrl):
         # scrap[title] = {'link': product_link, 'name': title, 'details': details}
         scrap_product_page(product_link)
         print("f")
+
 
 flipkart_search_link = "https://www.flipkart.com/search?q="
 suffix = "&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"

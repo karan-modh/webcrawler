@@ -1,0 +1,113 @@
+{
+    "Product Details": {
+        "title": "Redmi 9 (Sporty Orange, 64 GB)",
+        "price": "\u20b99,189",
+        "highlights": [
+            "4 GB RAM | 64 GB ROM",
+            "16.59 cm (6.53 inch) HD+ Display",
+            "13MP + 8MP | 5MP Front Camera",
+            "5000 mAh Battery",
+            "MediaTek Helio G35 Processor"
+        ]
+    },
+    "Specifications": {
+        "General": {
+            "In The Box": "Handset,Power adapter,5V2A Charger,Micro-USB cable,SIM eject tool,Warranty card,User guide",
+            "Model Number": "M2006C3MII",
+            "Model Name": "Redmi 9",
+            "Color": "Sporty Orange",
+            "Browse Type": "Smartphones",
+            "SIM Type": "Dual Sim",
+            "Hybrid Sim Slot": "No",
+            "Touchscreen": "Yes",
+            "OTG Compatible": "Yes",
+            "Quick Charging": "Yes"
+        },
+        "Display Features": {
+            "Display Size": "16.59 cm (6.53 inch)",
+            "Resolution": "720 x 1600$$pixel",
+            "Resolution Type": "HD+",
+            "GPU": "PowerVR8320",
+            "Display Type": "IPS LCD",
+            "Other Display Features": "Supports Color temperature adjustment , Standard mode , Reading mode ,Supports Sunlight mode"
+        },
+        "Os & Processor Features": {
+            "Operating System": "Android Android Q 10",
+            "Processor Type": "MediaTek Helio G35",
+            "Primary Clock Speed": "2.3 GHz"
+        },
+        "Memory & Storage Features": {
+            "Internal Storage": "64 GB",
+            "RAM": "4 GB",
+            "Memory Card Slot Type": "Dedicated Slot"
+        },
+        "Camera Features": {
+            "Primary Camera Available": "Yes",
+            "Primary Camera": "13MP + 8MP",
+            "Primary Camera Features": "Phase detection auto focus , HDR , AI portrait mode , Face recognition , AI Beautify 5.0 , AI scene detection ,Single tone flash",
+            "Secondary Camera Available": "Yes",
+            "Secondary Camera": "5MP Front Camera",
+            "Secondary Camera Features": "AI Beautify 5.0 , AI portrait mode , HDR , Screen flash , Selfie timer, Face recognition, Portrait selfies, Palm shutter",
+            "Flash": "Back",
+            "HD Recording": "Yes",
+            "Dual Camera Lens": "Primary Camera"
+        },
+        "Call Features": {
+            "Call Wait/Hold": "Yes",
+            "Conference Call": "Yes",
+            "Hands Free": "Yes",
+            "Video Call Support": "Yes",
+            "Call Divert": "Yes",
+            "Phone Book": "Yes",
+            "Call Timer": "Yes",
+            "Speaker Phone": "Yes"
+        },
+        "Connectivity Features": {
+            "Network Type": "4G VOLTE, 3G",
+            "Supported Networks": "4G VoLTE, GSM",
+            "3G": "Yes",
+            "Micro USB Port": "Yes",
+            "Bluetooth Support": "Yes",
+            "Bluetooth Version": "5",
+            "Wi-Fi": "Yes",
+            "Wi-Fi Version": "Wi-Fi 802.11 a/b/g/n/ac",
+            "Wi-Fi Hotspot": "Yes",
+            "NFC": "Yes",
+            "USB Tethering": "Yes",
+            "USB Connectivity": "Yes",
+            "Audio Jack": "3.5",
+            "GPS Support": "Yes"
+        },
+        "Other Details": {
+            "Smartphone": "Yes",
+            "Touchscreen Type": "Capacitive",
+            "SIM Size": "Nano",
+            "Keypad Type": "Alphanumeric",
+            "Social Networking Phone": "Yes",
+            "Removable Battery": "No",
+            "SMS": "Yes",
+            "Keypad": "No",
+            "Voice Input": "Yes",
+            "Predictive Text Input": "Yes",
+            "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity",
+            "GPS Type": "A-GPS"
+        },
+        "Multimedia Features": {
+            "Audio Formats": "PCM, AAC/AAC+/eAAC+, MP3, AMR-NB, WB, FLAC, APE",
+            "Video Formats": "\u00a0H.264 (Baseline / Main / High Profile), MPEG4 (simple profile / ASP)"
+        },
+        "Battery & Power Features": {
+            "Battery Capacity": "5000 mAh",
+            "Battery Type": "Li-Po"
+        },
+        "Dimensions": {
+            "Width": "77.07 mm",
+            "Height": "164.9 mm",
+            "Depth": "9 mm",
+            "Weight": "194 g"
+        },
+        "Warranty": {
+            "Warranty Summary": "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
+        }
+    }
+}
