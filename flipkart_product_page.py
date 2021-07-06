@@ -2,6 +2,7 @@ import re
 import json
 import requests
 from bs4 import BeautifulSoup
+from proxy_rotation import get_proxies
 
 
 def scrap_product_page(product_link):
@@ -53,7 +54,6 @@ def web(page, webUrl):
         # details = [data.contents[0] for data in product.findAll('li', {'class': 'rgWa7D'})]
         # scrap[title] = {'link': product_link, 'name': title, 'details': details}
         scrap_product_page(product_link)
-        print("f")
 
 
 flipkart_search_link = "https://www.flipkart.com/search?q="
